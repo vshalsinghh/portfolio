@@ -18,7 +18,7 @@ const Footer = () => (
           </ul>
         </div>
         <div className='details'>
-          <h3 className='title2'><a href={ResumePdf} className='link' target='_blank'>MyResume</a></h3>
+          <h3 className='title2'><a href={ResumePdf} className='link' target='_blank' rel="noopener noreferrer">MyResume</a></h3>
           <h5 className='title2'>&#169;2021 Vishalsingh</h5>
         </div>
       </div>
