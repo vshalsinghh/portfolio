@@ -1,0 +1,62 @@
+
+.skills{
+	padding:1em 2em;
+	position:relative;
+	overflow:hidden;
+	li {
+		display:flex;
+		align-items:center;
+		.skill-logo{
+			margin-right:2em;
+		}
+		.skill-name{
+			font-size:20px;
+		}
+
+		
+	}
+	.laptop-logo{
+		display:none;
+
+	}
+	
+}
+
+@media only screen and(min-width: 416px){
+}
+@media only screen and(min-width: 600px){
+	.skills{
+		padding:1em 3em;
+		.laptop-logo{
+			display:unset;
+			position:absolute;
+			top:2em;
+			right:0;
+			z-index:-1;
+			margin-right:-200px;
+			height:100%;
+			opacity: 0.5;
+		}
+	}
+}
+@media only screen and(min-width: 800px){
+	.skills{
+		padding:2em 4em;
+		.title{
+			text-align:left;
+			padding-left:4em;
+		}
+
+	}
+}
+@media only screen and(min-width: 1080px){
+	.skills{
+		padding:2em 6em;
+		height:80vh;
+		.title{
+			text-align:left;
+			padding-left:6em;
+		}
+
+	}
+}

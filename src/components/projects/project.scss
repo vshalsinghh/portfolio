@@ -1,0 +1,57 @@
+.projects{
+	background-color:#FFD4ED;
+	padding:1em 2em;
+	
+	.projects-container{
+		.project{
+			display:flex;
+			flex-direction: column;
+			justify-content:flex-start;
+			background-color:#fafafa;
+			padding:2em;
+			border-radius: .5em;
+			margin:2em auto;
+			max-width:250px;
+			.project-name{
+				font-size:20px;
+			}	
+			
+			.project-details{
+				white-space:normal;
+
+			}
+		}
+	}
+	
+}
+
+@media only screen and(min-width: 416px){
+}
+@media only screen and(min-width: 600px){
+	.projects{
+		padding:1em 3em;
+		.projects-container{
+			display:flex;
+			justify-content:space-between;
+			flex-wrap:wrap
+		}
+	}
+}
+@media only screen and(min-width: 800px){
+	.projects{
+		padding:2em 4em;
+	}
+}
+@media only screen and(min-width: 1080px){
+	.projects{
+		padding:2em 6em;
+		height:80vh;
+		.project-container .project{
+			max-width:unset;
+			min-width:400px;
+			background-color:yellow;
+			padding:4em 6em;
+		}
+	}
+	
+}
