@@ -19,10 +19,14 @@ const Header = () => (
         </div>
         <div className='navbar-icons'>
           <ul className='icons-container'>
-              <li ><Github className='social-icon'/></li>
-              <li ><Linkdin className='social-icon'/></li>
+              <li ><a href="https://github.com/xCvishal" target="_blank" rel="noopener noreferrer"><Github className='social-icon'/></a></li>
+              <li >
+	              <a href="https://www.linkedin.com/in/vishal-singh-371726151" target="_blank" rel="noopener noreferrer">
+					<Linkdin className='social-icon'/>
+					</a>
+              </li>
               <li ><Twitter className='social-icon'/></li>
-              <li ><Gmail className='social-icon'/></li>
+              <li ><a href="mailto:vishalsingh2402@gmail.com"><Gmail className='social-icon'/></a></li>
           </ul>
         </div>
       </div>

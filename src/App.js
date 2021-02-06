@@ -12,12 +12,9 @@ import {TweenMax} from 'gsap';
 
 function App() {
   let app = useRef(null);
-  console.log(app);
   useEffect(() => {
-    // app.style.visibility = 'visible';
-    console.log(app)
     TweenMax.to(app, 0 , {css: {visibility: 'visible'}})
-  },[])
+  },[]);
 
   return (   
     <div 

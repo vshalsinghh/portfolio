@@ -10,22 +10,17 @@ const Projects = () => (
           <div className='project'>
             <p className='project-name'>Face Recognition app</p>
             <p className='small-title'>TechStack</p>
-            <p className='project-details'>React, Redux, Heroku, det, flo, fkgo</p>
+            <p className='project-details'>React, Redux, Heroku, Express, Postgres, context API.</p>
           </div>
           <div className='project'>
-            <p className='project-name'>Face Recognition app</p>
+            <p className='project-name'>Cloth Shopping App</p>
             <p className='small-title'>TechStack</p>
-            <p className='project-details'>React, Redux, Heroku</p>
+            <p className='project-details'>React, Firebase login, Redux.</p>
           </div>
           <div className='project'>
-            <p className='project-name'>Face Recognition app</p>
+            <p className='project-name'>Robofriends App (SearchApp)</p>
             <p className='small-title'>TechStack</p>
-            <p className='project-details'>React, Redux, Heroku</p>
-          </div>
-          <div className='project'>
-            <p className='project-name'>Face Recognition app</p>
-            <p className='small-title'>TechStack</p>
-            <p className='project-details'>React, Redux, Heroku</p>
+            <p className='project-details'>React, Rest API</p>
           </div>
         </div>
         </Tween>
