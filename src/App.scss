@@ -9,11 +9,11 @@
 .social-icon{
 		width:40px;
 		cursor: pointer;
-		transition: transform .2 smooth;
+		transition: transform .05s linear;
+		
 		&:hover{
 			transform:scale(1.1);
 		}
-
 	}
 .title{
 	color:#5C49B5;
