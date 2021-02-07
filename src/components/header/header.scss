@@ -12,7 +12,7 @@
 				li{
 				float:left;
 				margin:0 1em;
-				font-size:16px;
+				font-size:12px;
 				}
 			}
 		}
@@ -20,23 +20,47 @@
 	}
 	
 }
-
 .nav-logo{
 			margin:1em 1em 1em 2em;
 			color:#6625B9;
 			white-space: nowrap;
-			font-size:1.5em;
+			font-size:1em;
 			cursor:pointer;
+			a{
+				color:unset;
+			}
 		}
-@media only screen and(min-width: 416px){
+.nav-logo:hover{
+	color:#581CB0;
+
+}
+@media only screen and(max-width:350px){
+	.nav-logo{
+		font-size:.8em;
+
+	}
+	ul li a{
+		font-size:10px;
+	}
+}
+@media only screen and(min-width: 420px){
 	.nav-links{
 		margin-right:1em;
+	}
+	ul li a{
+		font-size: 14px;
+	}
+	.nav-logo{
+		font-size: 1.25em;
 	}
 }
 @media only screen and(min-width: 600px){
 	.navbar{
 		.nav-links{
 			margin-right:3em;
+		}
+		ul li a{
+			font-size:16px;
 		}
 		.nav-logo{
 		margin:1em 1em 1em 3em;
@@ -51,6 +75,7 @@
 		}
 		.nav-logo{
 		margin:1em 1em 1em 4em;
+		font-size:1.5em;
 		}
 	}
 }

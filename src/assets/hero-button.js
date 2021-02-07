@@ -9,5 +9,6 @@ const HeroButton = () => (
     </g>
     <circle className='circle' id="Ellipse_13" data-name="Ellipse 13" cx="15.5" cy="15.5" r="15.5" transform="translate(269 653)"/>
   </g>
-</svg>);
+</svg>
+);
 export default HeroButton;

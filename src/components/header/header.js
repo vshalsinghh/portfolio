@@ -8,7 +8,7 @@ import './header.scss';
 const Header = () => (
 	<div className='header'>
         <div className='navbar'>
-          <h3 className='nav-logo'>Vishal Singh</h3>
+          <h3 className='nav-logo'><a href="/">Vishal Singh</a></h3>
           <div className='nav-links'>
               <ul>
                 <li><a href='#projects'>Projects</a></li>

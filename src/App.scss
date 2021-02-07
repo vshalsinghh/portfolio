@@ -1,5 +1,6 @@
 .App{
 	visibility: hidden;
+
 }
 
 .navbar-icons, .hero-icon{
@@ -8,6 +9,10 @@
 .social-icon{
 		width:40px;
 		cursor: pointer;
+		transition: transform .2 smooth;
+		&:hover{
+			transform:scale(1.1);
+		}
 
 	}
 .title{

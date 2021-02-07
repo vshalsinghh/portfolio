@@ -1,8 +1,9 @@
 .projects{
 	background-color:#FFD4ED;
 	padding:1em 2em;
+	overflow:hidden;
 	
-	.projects-container{
+	.projects-container{	
 		.project{
 			display:flex;
 			flex-direction: column;
@@ -11,9 +12,17 @@
 			padding:2em;
 			border-radius: .5em;
 			margin:2em auto;
+			height:300px;
 			max-width:250px;
+			cursor:pointer; 
+			transition: transform .1s linear;
+			&:hover{
+					transform:scale(1.1);
+				}
+
 			.project-name{
 				font-size:20px;
+
 			}	
 			
 			.project-details{
@@ -21,9 +30,13 @@
 
 			}
 		}
+		
+
+		
 	}
 	
 }
+
 
 @media only screen and(min-width: 416px){
 }
@@ -45,13 +58,8 @@
 @media only screen and(min-width: 1080px){
 	.projects{
 		padding:2em 6em;
-		height:80vh;
-		.project-container .project{
-			max-width:unset;
-			min-width:400px;
-			background-color:yellow;
-			padding:4em 6em;
-		}
+		height:70vh;
+			
 	}
 	
 }

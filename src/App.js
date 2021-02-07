@@ -21,10 +21,8 @@ function App() {
     ref={el => app=el} className="App">
       <Header />
         <HeroPage />
-        <Reveal repeat trigger={<div />}>
             <Projects />
-        </Reveal>
-        <Reveal repeat trigger={<div />}>
+        <Reveal repeat threshold={1} trigger={<div />}>
             <Skills />
         </Reveal>
       
