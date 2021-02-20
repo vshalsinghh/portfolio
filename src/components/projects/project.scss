@@ -44,21 +44,25 @@
 	.projects{
 		padding:1em 3em;
 		.projects-container{
-			display:flex;
-			justify-content:space-between;
-			flex-wrap:wrap
+			display:grid;
+			grid-template-columns:1fr 1fr;
+			place-content:center;
+			grid-gap:.5rem;
+
 		}
 	}
 }
 @media only screen and(min-width: 800px){
 	.projects{
 		padding:2em 4em;
+		.projects-container{
+			grid-template-columns:1fr 1fr 1fr;
+		}
 	}
 }
 @media only screen and(min-width: 1080px){
 	.projects{
 		padding:2em 6em;
-		height:70vh;
 			
 	}
 	

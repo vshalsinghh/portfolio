@@ -45,6 +45,25 @@ const Projects = () => {
 			          </div>
 	        	</Tween>
 	        </Reveal>
+	        <Reveal repeat >
+	        	<Tween from={{opacity:0}} duration={1.5} stagger={.2} ease="ease-in">
+			          <div className='project proj3' onClick={() => openLink('https://rapidfinancialsplus.netlify.app/')}>
+			            <p className='project-name'>Finance+ App (stock info)</p>
+			            <p className='small-title'>TechStack</p>
+			            <p className='project-details'>React, Rest API</p>
+			          </div>
+	        	</Tween>
+	        </Reveal>
+	        <Reveal repeat >
+	        	<Tween from={{opacity:0}} duration={1.5} stagger={.2} ease="ease-in">
+			          <div className='project proj3' onClick={() => openLink('https://userdatabase101.netlify.app/')}>
+			            <p className='project-name'>User Database App</p>
+			            <p className='small-title'>TechStack</p>
+			            <p className='project-details'>React, Firebase</p>
+			          </div>
+	        	</Tween>
+	        </Reveal>
+	        
         </div>
       </div>
       )};
