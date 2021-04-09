@@ -16,6 +16,10 @@
 				}
 			}
 		}
+		.navbar-icons{
+			ul{
+			}
+		}
 
 	}
 	
@@ -93,7 +97,7 @@
 
 		.navbar-icons{
 			display:unset;
-			margin:0 4em 0 auto;
+			margin:auto 3em auto auto;
 			ul li{
 				float:left;
 				margin-right:1em;

@@ -4,6 +4,12 @@
 	padding:4em 2em;
 	display:grid;
 	place-items:center;
+	.primary-heading{
+		span{
+			color:#5508B9;
+			cursor:pointer;
+		}
+	}
 	p{
 		color:#5508B9;
 	}
